@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miDashboard"
+        android:icon="@drawable/home"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/miSellProduct"
+        android:icon="@drawable/sell"
+        android:title="Sell Product"
+        />
+    <item
+        android:id="@+id/miSalesToday"
+        android:icon="@drawable/events"
+        android:title="Sales Today"
+        />
+    <item
+        android:id="@+id/miSalesAll"
+        android:icon="@drawable/sales_all"
+        android:title="Sales All"
+        />
+    <item
+        android:id="@+id/miProducts"
+        android:icon="@drawable/products"
+        android:title="All Products"
+        />
+    <item
+        android:id="@+id/miProductsRecord"
+        android:icon="@drawable/category"
+        android:title="Products Record"
+        />
+    <item
+        android:id="@+id/miProductsNotice"
+        android:icon="@drawable/notice_1"
+        android:title="Products Notice"
+        />
+    <item
+        android:id="@+id/miExpiringProducts"
+        android:icon="@drawable/notice"
+        android:title="Expiring Products"
+        />
+    <item
+        android:id="@+id/miExpiredProducts"
+        android:icon="@drawable/danger"
+        android:title="Expired Products"
+        />
+    <item
+        android:id="@+id/miSellToSeller"
+        android:icon="@drawable/selltoseller"
+        android:title="Sell To Seller"
+        />
+    <item
+        android:id="@+id/miCredits"
+        android:icon="@drawable/credits"
+        android:title="Credits"
+        />
+    <item
+        android:id="@+id/miCreditors"
+        android:icon="@drawable/creditors"
+        android:title="Creditors"
+        />
+    <item
+        android:id="@+id/miInvoices"
+        android:icon="@drawable/invoices"
+        android:title="Invoices"
+        />
+    <item
+        android:id="@+id/miSellers"
+        android:icon="@drawable/sellers"
+        android:title="All Seller"
+        />
+    <item
+        android:id="@+id/miAddSeller"
+        android:icon="@drawable/addseller"
+        android:title="Add Seller"
+        />
+    <item
+        android:id="@+id/miAdmins"
+        android:icon="@drawable/sellers"
+        android:title="All Admin"
+        />
+    <item
+        android:id="@+id/miAddAdmin"
+        android:icon="@drawable/addseller"
+        android:title="Add Admin"
+        />
+    <item
+        android:id="@+id/miAddProduct"
+        android:icon="@drawable/add_product"
+        android:title="Add Product"
+        />
+    <item
+        android:id="@+id/miAddProductInfo"
+        android:icon="@drawable/info"
+        android:title="Add Products Info"
+        />
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/miLogout"
+                android:icon="@drawable/logout"
+                android:title="Logout"
+                />
+            <item
+                android:id="@+id/miSetting"
+                android:icon="@drawable/settings"
+                android:title="Settings"
+                />
+            <item
+                android:id="@+id/miAboutUs"
+                android:icon="@drawable/about"
+                android:title="About Us"
+                />
+            <item
+                android:id="@+id/miContactUs"
+                android:icon="@drawable/contact"
+                android:title="Contact Us"
+                />
+        </menu>
+    </item>
+
+</menu>

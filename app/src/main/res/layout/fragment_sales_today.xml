@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SalesTodayFragment">
+
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/layoutSalesToday"
+         android:orientation="vertical"
+         >
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/rvSell"
+             />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:weightSum="2"
+             android:background="#f44336"
+             android:layout_gravity="bottom"
+             android:padding="10dp"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Total Price: "
+                     android:textColor="@color/colorWhite"
+                     android:textSize="17sp" />
+                 <TextView
+                     android:id="@+id/tvTotalTotalPrice"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/colorWhite"
+                     android:textStyle="bold"
+                     android:text="0"
+                     android:textSize="17sp"/>
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="17sp"
+                     android:textColor="@color/colorWhite"
+                     android:text="Sale Price : " />
+                 <TextView
+                     android:id="@+id/tvTotalSalePrice"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/colorWhite"
+                     android:textStyle="bold"
+                     android:text="0"
+                     android:textSize="17sp"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <com.facebook.shimmer.ShimmerFrameLayout
+         android:layout_width="match_parent"
+         android:visibility="gone"
+         android:layout_height="wrap_content"
+         android:id="@+id/shimmerSalesToday"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+             <include layout="@layout/shimmer_sale"/>
+
+         </LinearLayout>
+
+     </com.facebook.shimmer.ShimmerFrameLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_gravity="center_vertical"
+         android:gravity="center_vertical"
+         android:foregroundGravity="center_vertical"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:id="@+id/layoutErrorView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:layout_gravity="center_horizontal"
+             android:gravity="center_vertical"
+             >
+
+             <include layout="@layout/no_sales"/>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+ </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="SWW">Something Went Wrong</string>
+
+
+    <string name="app_name">Stock Management</string>
+    <string name="name_on_splash_activity">Stock Management</string>
+    <string name="about">The purpose of stock management software is to maintain an optimal stock level, track goods during transport between locations, receive new items, manage warehouse processes such as picking, packing, and shipping, prevent product obsolescence and spoilage, and ensure your products are never out of stock.</string>
+    <string name="mufazmi">Hi, My name is Umair Farooqui and I am a Web and Android Developer. A software engineering graduate who is seeking to find the opportunity to work in a fun and challenging working environment.</string>
+    <string name="socialcodia">Why Social Codia? The approach to each new project is individual, we treat equally every customer, regardless of the size of the company and its budget. After delivery of the project we carry out the promotion and support of the site, helping the client to attract traffic from the Internet.</string>
+    <string name="instagram_username">SocialCodia</string>
+    <string name="facebook_username">SocialCodia</string>
+    <string name="twitter_username">SocialCodia</string>
+    <string name="owner_whatsapp_number">+919867503256</string>
+</resources>

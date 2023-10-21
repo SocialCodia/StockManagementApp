@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProductsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSearchProduct"
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/inputSearchProduct"
+            android:drawableEnd="@drawable/ic_baseline_search"
+            android:hint="Search Product"
+            android:focusable="true"
+            android:drawableRight="@drawable/ic_baseline_search" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerProduct"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+            <include layout="@layout/shimmer_product" />
+
+        </LinearLayout>
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+
+</FrameLayout>

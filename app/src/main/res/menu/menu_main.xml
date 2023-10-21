@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Dahboard"
+        android:icon="@drawable/home"
+        android:id="@+id/miDashboard"
+        />
+
+    <item
+        android:title="Products"
+        android:icon="@drawable/products"
+        android:id="@+id/miProducts"
+        />
+
+    <item
+        android:title="Sell"
+        android:icon="@drawable/sell"
+        android:id="@+id/miSellProduct"
+        />
+
+    <item
+        android:title="Sales Today"
+        android:icon="@drawable/events"
+        android:id="@+id/miSalesToday"
+        />
+
+    <item
+        android:title="Credits"
+        android:icon="@drawable/credits"
+        android:id="@+id/miCredits"
+        />
+
+
+</menu>
